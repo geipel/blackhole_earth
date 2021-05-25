@@ -1,7 +1,7 @@
 # blackhole_earth
  What if the Earth collapses to a black hole, instantaneously?
 
-- Check out the [JupyterLab notebook](https://github.com/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb)!
+- Check out the [JupyterLab notebook](https://colab.research.google.com/github/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb) via **google colab**!
 
 ## This was written to learn about JupyterLab and related technologies.
 This was for fun, and was inspired by a podcast scenario:
@@ -17,7 +17,6 @@ This was for fun, and was inspired by a podcast scenario:
 
 ## Todo
 - gh-pages or similar
-- google-colab link
 - installation instructions
 
 I also need to update my conclusions for a likely [limit to black hole angular momentum](https://en.wikipedia.org/wiki/Black_hole#Physical_properties).
