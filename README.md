@@ -1,7 +1,10 @@
 # blackhole_earth
  What if the Earth collapses to a black hole, instantaneously?
 
-- Check out the [JupyterLab notebook](https://colab.research.google.com/github/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb) via **google colab**!
+JupyterLab notebook, view as:
+- [PDF document without code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_nocode.pdf)
+- [PDF document showing code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_showcode.pdf)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb)
 
 ## This was written to learn about JupyterLab and related technologies.
 This was for fun, and was inspired by a podcast scenario:
