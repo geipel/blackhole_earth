@@ -15,7 +15,7 @@ This was for fun, and was inspired by a podcast scenario:
 
 ## Notes
 - The [Makefile](https://github.com/geipel/blackhole_earth/blob/main/Makefile) is currently used to generate the two [output PDFs](https://github.com/geipel/blackhole_earth/tree/main/out) automagically.
-- I use the fantastic (direnv)[https://direnv.net/] package for a local Python3 env. See [.envrc](https://github.com/geipel/blackhole_earth/blob/main/.envrc).
+- I use the fantastic [direnv](https://direnv.net/) package for a local Python3 env. See [.envrc](https://github.com/geipel/blackhole_earth/blob/main/.envrc).
 - The needed pip3 packages can then be loaded using [requirements.in](https://github.com/geipel/blackhole_earth/blob/main/requirements.in).
 
 ## Todo
