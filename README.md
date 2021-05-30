@@ -6,6 +6,11 @@ JupyterLab notebook, view as:
 - [PDF document showing code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_showcode.pdf)
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb)
 
+Using the GColab link lets you run the IPython code in the cloud;
+you're welcome to change my starting values and play around with the results.
+You can change my equations, if you wish.
+Both diagrams are auto-generated and will adjust to your new values.
+
 ## Inspiration: learn about JupyterLab and related technologies.
 This was for fun, and was inspired by a podcast scenario:
 > You’re standing on the Earth's equator, when it suddenly collapses to a black hole, out from under you.
