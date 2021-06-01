@@ -2,17 +2,17 @@
  What if the Earth collapses to a black hole, instantaneously?
 
 JupyterLab notebook, view as:
-- [PDF document without code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_nocode.pdf)
-- [PDF document showing code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_showcode.pdf)
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb)
+- [PDF document without code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_nocode.pdf) <-- easiest to read
+- [PDF document showing code](https://github.com/geipel/blackhole_earth/blob/main/out/blackhole_earth_showcode.pdf) <-- shows all work
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/geipel/blackhole_earth/blob/main/src/blackhole_earth.ipynb) <-- in the cloud, editable and interactive
 
 Using the GColab link lets you run the IPython code in the cloud;
 you're welcome to change my starting values and play around with the results.
-You can change my equations, if you wish.
-Both diagrams are auto-generated and will adjust to your new values.
+You can even change my equations, if you wish.
+Both diagrams are auto-generated and will adjust to your changes.
 
 ## Inspiration: learn about JupyterLab and related technologies.
-This was for fun, and was inspired by a podcast scenario:
+This was for fun, and was inspired by a cool podcast scenario:
 > You’re standing on the Earth's equator, when it suddenly collapses to a black hole, out from under you.
 > Do you fall into the resulting black hole, the size of a peanut?
 
@@ -25,7 +25,7 @@ This was for fun, and was inspired by a podcast scenario:
 
 ## Todo
 - gh-pages or similar
-- installation instructions
+- installation instructions on iPad, Mac/Linux/Win
 
 I also need to update my conclusions for a likely [limit to black hole angular momentum](https://en.wikipedia.org/wiki/Black_hole#Physical_properties).
-Yes, it seems likely that the Earth has way too much rotational angular momentum to collapse **ALL** of its mass into a black hole.
+Yes, it seems likely that the Earth has way too much rotational angular momentum to collapse _**ALL**_ of its mass into a black hole.
