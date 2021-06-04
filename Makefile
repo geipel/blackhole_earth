@@ -1,5 +1,5 @@
-MYSRC = $(wildcard *.ipynb)
-MYBAS = $(MYSRC:%.ipynb=%)
+MYSRC = $(wildcard src/*.ipynb)
+MYBAS = $(notdir $(MYSRC:%.ipynb=%))
 MYCMD = jupyter nbconvert --to pdf
 
 .PHONY: default all diag clean nocode showcode
@@ -12,15 +12,15 @@ diag:
 	@echo MYBAS=$(MYBAS)
 	@echo MYCMD=$(MYCMD)
 clean:
-	rm -f *.pdf
+	rm -f out/*.pdf
 
-%_showcode.pdf: %.ipynb Makefile
+out/%_showcode.pdf: src/%.ipynb Makefile
 	$(MYCMD)            --output=$@ $<
 	@echo ""
 
-%_nocode.pdf:   %.ipynb Makefile
+out/%_nocode.pdf:   src/%.ipynb Makefile
 	$(MYCMD) --no-input --output=$@ $<
 	@echo ""
 
-showcode: $(foreach bas,$(MYBAS),$(bas)_showcode.pdf)
-nocode:   $(foreach bas,$(MYBAS),$(bas)_nocode.pdf)
+showcode: $(foreach bas,$(MYBAS),out/$(bas)_showcode.pdf)
+nocode:   $(foreach bas,$(MYBAS),out/$(bas)_nocode.pdf)
